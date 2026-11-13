@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Construtora Mendes | Construção, reformas e soluções para seu imóvel</title>
+  <meta name="description" content="Construtora Mendes: construção, reformas, instalações elétricas, segurança eletrônica e manutenção residencial e comercial. Sede em Santa Maria — TO, atendendo todo o Tocantins.">
+  <meta name="theme-color" content="#1c1c1e">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Construtora Mendes">
+  <meta property="og:title" content="Construtora Mendes | Construção, reformas e soluções para seu imóvel">
+  <meta property="og:description" content="Construção, reformas, elétrica, segurança eletrônica e manutenção. Atendemos todo o Tocantins.">
+  <meta name="twitter:card" content="summary">
+
+  <!-- Favicon tipográfico (SVG embutido) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%231c1c1e'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='36' font-weight='700' text-anchor='middle' fill='%23c8b58a'%3EM%3C/text%3E%3C/svg%3E">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ícones vetoriais (sprite) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-construcao" viewBox="0 0 24 24"><path d="M3 21h18M5 21V9l7-5 7 5v12M10 21v-6h4v6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></symbol>
+    <symbol id="i-reformas" viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.4 2.4-2.6-.6-.6-2.6z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></symbol>
+    <symbol id="i-seguranca" viewBox="0 0 24 24"><path d="M3 7h4l2-2h6l2 2h4v12H3z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="12" cy="13" r="3.5" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+    <symbol id="i-eletricista" viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+    <symbol id="i-manutencao" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+    <symbol id="i-outros" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6 7-11a7 7 0 0 0-14 0c0 5 7 11 7 11z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.5" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M3 21l1.6-4.8A8.5 8.5 0 1 1 8 19.4z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 8.5c0 3 3 6 6 6l1.2-1.4-2-1-1 .8c-1-.4-2-1.4-2.4-2.4l.8-1-1-2z" fill="currentColor"/></symbol>
+    <symbol id="i-relogio" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+    <symbol id="i-mapa" viewBox="0 0 24 24"><path d="M3 6l6-2 6 2 6-2v14l-6 2-6-2-6 2zM9 4v14M15 6v14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <!-- ============ CABEÇALHO / MENU ============ -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#inicio" aria-label="Construtora Mendes — início">
+        <span class="logo-small">CONSTRUTORA</span>
+        <span class="logo-main">MENDES</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="menuPrincipal">
+        <span class="sr-only">Abrir menu</span>
+        <span class="menu-bars" aria-hidden="true"></span>
+      </button>
+
+      <nav class="main-nav" id="menuPrincipal" aria-label="Menu principal">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#construcao">Construção</a></li>
+          <li><a href="#reformas">Reformas</a></li>
+          <li><a href="#seguranca">Segurança e Câmeras</a></li>
+          <li><a href="#eletricista">Eletricista</a></li>
+          <li><a href="#manutencao">Manutenção</a></li>
+          <li><a href="#atendimento">Atendimento</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ============ INÍCIO ============ -->
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <div class="container hero-inner">
+        <p class="eyebrow">Santa Maria — Tocantins</p>
+        <h1 id="hero-titulo">
+          <span class="hero-small">CONSTRUTORA</span>
+          <span class="hero-main">MENDES</span>
+        </h1>
+        <div class="rule" aria-hidden="true"></div>
+        <p class="hero-slogan">Construção, reformas e soluções para seu imóvel.</p>
+        <p class="hero-text">Atuamos com soluções em construção, reformas, instalações elétricas, segurança eletrônica e manutenção residencial e comercial.</p>
+        <a class="btn btn-primary" href="#atendimento" data-wa="geral" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+          SOLICITAR ORÇAMENTO
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ SERVIÇOS ============ -->
+    <section class="section" id="servicos" aria-labelledby="servicos-titulo">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">O que fazemos</p>
+          <h2 id="servicos-titulo">Serviços</h2>
+          <div class="rule" aria-hidden="true"></div>
+        </header>
+
+        <div class="cards">
+
+          <article class="card" id="construcao">
+            <svg class="card-icon" aria-hidden="true"><use href="#i-construcao"/></svg>
+            <h3>Construção</h3>
+            <p class="card-desc">Obras novas e ampliações, do projeto à entrega, para uso residencial e comercial.</p>
+            <ul class="service-list">
+              <li>Construção de casas</li>
+              <li>Construção de apartamentos</li>
+              <li>Construção de sobrados</li>
+              <li>Construção de galpões</li>
+              <li>Construção de lojas</li>
+              <li>Construção de salas comerciais</li>
+              <li>Construção de prédios</li>
+              <li>Ampliação de imóveis</li>
+              <li>Construção de muros</li>
+            </ul>
+            <a class="btn btn-outline" href="#atendimento" data-wa="construcao" target="_blank" rel="noopener noreferrer">Solicitar orçamento</a>
+          </article>
+
+          <article class="card" id="reformas">
+            <svg class="card-icon" aria-hidden="true"><use href="#i-reformas"/></svg>
+            <h3>Reformas</h3>
+            <p class="card-desc">Renovação e modernização de ambientes com acabamento cuidadoso.</p>
+            <ul class="service-list">
+              <li>Reforma de casas</li>
+              <li>Reforma de apartamentos</li>
+              <li>Reforma de lojas e comércios</li>
+              <li>Reforma de cozinhas</li>
+              <li>Reforma de banheiros</li>
+              <li>Pintura</li>
+              <li>Pisos e revestimentos</li>
+              <li>Telhados</li>
+              <li>Forros e drywall</li>
+              <li>Reformas elétricas</li>
+              <li>Reformas hidráulicas</li>
+              <li>Fachadas</li>
+              <li>Muros e calçadas</li>
+              <li>Ampliações</li>
+            </ul>
+            <a class="btn btn-outline" href="#atendimento" data-wa="reformas" target="_blank" rel="noopener noreferrer">Solicitar orçamento</a>
+          </article>
+
+          <article class="card" id="seguranca">
+            <svg class="card-icon" aria-hidden="true"><use href="#i-seguranca"/></svg>
+            <h3>Segurança e Câmeras</h3>
+            <p class="card-desc">Segurança eletrônica para proteger sua casa ou seu negócio, com acesso remoto.</p>
+            <ul class="service-list">
+              <li>Instalação de câmeras</li>
+              <li>Configuração de DVR e NVR</li>
+              <li>Câmeras IP</li>
+              <li>Acesso remoto pelo celular</li>
+              <li>Manutenção de câmeras</li>
+              <li>Alarmes</li>
+              <li>Sensores</li>
+              <li>Interfones</li>
+              <li>Controle de acesso</li>
+              <li>Instalação de campainhas</li>
+            </ul>
+            <a class="btn btn-outline" href="#atendimento" data-wa="seguranca" target="_blank" rel="noopener noreferrer">Solicitar orçamento</a>
+          </article>
+
+          <article class="card" id="eletricista">
+            <svg class="card-icon" aria-hidden="true"><use href="#i-eletricista"/></svg>
+            <h3>Eletricista</h3>
+            <p class="card-desc">Instalações e manutenções elétricas residenciais e comerciais, com segurança.</p>
+            <ul class="service-list">
+              <li>Instalação elétrica</li>
+              <li>Manutenção elétrica</li>
+              <li>Instalação de tomadas</li>
+              <li>Instalação de interruptores</li>
+              <li>Instalação de luminárias</li>
+              <li>Instalação de chuveiros</li>
+              <li>Instalação de ventiladores</li>
+              <li>Instalação de disjuntores</li>
+              <li>Troca de fiação</li>
+              <li>Instalação de quadros elétricos</li>
+              <li>Iluminação residencial e comercial</li>
+            </ul>
+            <a class="btn btn-outline" href="#atendimento" data-wa="eletricista" target="_blank" rel="noopener noreferrer">Solicitar orçamento</a>
+          </article>
+
+          <article class="card" id="manutencao">
+            <svg class="card-icon" aria-hidden="true"><use href="#i-manutencao"/></svg>
+            <h3>Manutenção</h3>
+            <p class="card-desc">Reparos e cuidados contínuos para manter seu imóvel em perfeito estado.</p>
+            <ul class="service-list">
+              <li>Pequenos reparos</li>
+              <li>Manutenção residencial</li>
+              <li>Manutenção comercial</li>
+              <li>Reparos hidráulicos</li>
+              <li>Reparos em portas e fechaduras</li>
+              <li>Reparos em paredes</li>
+              <li>Troca de torneiras</li>
+              <li>Instalações diversas</li>
+              <li>Manutenção preventiva</li>
+            </ul>
+            <a class="btn btn-outline" href="#atendimento" data-wa="manutencao" target="_blank" rel="noopener noreferrer">Solicitar orçamento</a>
+          </article>
+
+          <article class="card" id="outros">
+            <svg class="card-icon" aria-hidden="true"><use href="#i-outros"/></svg>
+            <h3>Outros Serviços</h3>
+            <p class="card-desc">Serviços personalizados relacionados a imóveis, construção, instalações e manutenção.</p>
+            <p class="card-note">Não encontrou o serviço que procura? Entre em contato com a nossa equipe e consulte a disponibilidade.</p>
+            <a class="btn btn-outline" href="#atendimento" data-wa="outros" target="_blank" rel="noopener noreferrer">Consultar disponibilidade</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COMO SOLICITAR ORÇAMENTO ============ -->
+    <section class="section section-alt" id="orcamento" aria-labelledby="orcamento-titulo">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Simples e direto</p>
+          <h2 id="orcamento-titulo">Como solicitar orçamento</h2>
+          <div class="rule" aria-hidden="true"></div>
+        </header>
+
+        <ol class="steps">
+          <li class="step">
+            <span class="step-num">01</span>
+            <h3>ESCOLHA O SERVIÇO</h3>
+            <p>Encontre a categoria que corresponde à sua necessidade.</p>
+          </li>
+          <li class="step">
+            <span class="step-num">02</span>
+            <h3>ENTRE EM CONTATO</h3>
+            <p>Fale diretamente com nossa equipe pelo WhatsApp ou presencialmente.</p>
+          </li>
+          <li class="step">
+            <span class="step-num">03</span>
+            <h3>RECEBA SEU ORÇAMENTO</h3>
+            <p>Nossa equipe avaliará sua solicitação e apresentará uma proposta personalizada.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ ATENDIMENTO ============ -->
+    <section class="section" id="atendimento" aria-labelledby="atendimento-titulo">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Fale com a gente</p>
+          <h2 id="atendimento-titulo">Atendimento</h2>
+          <div class="rule" aria-hidden="true"></div>
+        </header>
+
+        <div class="info-grid">
+          <div class="info-item">
+            <svg class="info-icon" aria-hidden="true"><use href="#i-pin"/></svg>
+            <h3>Sede</h3>
+            <p>Santa Maria — Tocantins.</p>
+          </div>
+          <div class="info-item">
+            <svg class="info-icon" aria-hidden="true"><use href="#i-mapa"/></svg>
+            <h3>Área de atendimento</h3>
+            <p>Todo o estado do Tocantins.</p>
+          </div>
+          <div class="info-item">
+            <svg class="info-icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+            <h3>Modalidades</h3>
+            <ul>
+              <li>Atendimento presencial.</li>
+              <li>Atendimento pelo WhatsApp.</li>
+            </ul>
+          </div>
+          <div class="info-item">
+            <svg class="info-icon" aria-hidden="true"><use href="#i-relogio"/></svg>
+            <h3>Horário</h3>
+            <p>Segunda a sexta-feira.<br>Das 08h às 18h.</p>
+          </div>
+        </div>
+
+        <div class="address-box">
+          <div>
+            <h3>Endereço</h3>
+            <address>
+              <span data-config="address-line1">Rua 7 de Setembro, Casa 1º</span><br>
+              <span data-config="address-line2">Santa Maria — TO.</span>
+            </address>
+          </div>
+          <div class="address-actions">
+            <a class="btn btn-primary" id="btnMapa" href="#atendimento" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
+              COMO CHEGAR
+            </a>
+            <a class="btn btn-outline" href="#atendimento" data-wa="geral" target="_blank" rel="noopener noreferrer">
+              <svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+              Chamar no WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ RODAPÉ ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <p class="logo-static"><span class="logo-small">CONSTRUTORA</span> <span class="logo-main">MENDES</span></p>
+        <p>Construção, reformas e soluções para seu imóvel.</p>
+      </div>
+
+      <div>
+        <h3>Informações</h3>
+        <dl class="footer-list">
+          <dt>CNPJ</dt>
+          <dd data-field="cnpj">Indisponível no momento.</dd>
+          <dt>E-mail</dt>
+          <dd data-field="email">Indisponível no momento.</dd>
+          <dt>Instagram</dt>
+          <dd data-field="instagram">Indisponível no momento.</dd>
+          <dt>Facebook</dt>
+          <dd data-field="facebook">Indisponível no momento.</dd>
+        </dl>
+      </div>
+
+      <div>
+        <h3>Contato</h3>
+        <dl class="footer-list">
+          <dt>Endereço</dt>
+          <dd>Rua 7 de Setembro, Casa 1º, Santa Maria — TO.</dd>
+          <dt>WhatsApp</dt>
+          <dd><a href="#atendimento" data-wa="geral" data-config="phone-display" target="_blank" rel="noopener noreferrer">(63) 99312-1059</a></dd>
+        </dl>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="ano">2026</span> Construtora Mendes. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante de WhatsApp -->
+  <a class="wa-float" href="#atendimento" data-wa="geral" target="_blank" rel="noopener noreferrer" aria-label="Falar com a Construtora Mendes pelo WhatsApp">
+    <svg aria-hidden="true"><use href="#i-whatsapp"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
